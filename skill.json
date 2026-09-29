@@ -1,0 +1,32 @@
+{
+  "name": "genpark-personal-communication-triage-sentinel-skill",
+  "version": "1.0.0",
+  "description": "Autonomous personal communication and email triage sentinel performing multi-factor urgency scoring, VIP filtering, and context-aware executive auto-drafting.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "email-triage",
+    "communication-sentinel",
+    "superhuman-ai",
+    "inbox-zero",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "triage_message",
+      "description": "Triage inbound message and calculate priority score."
+    },
+    {
+      "name": "auto_draft_reply",
+      "description": "Generate executive contextual draft reply matching user tone."
+    },
+    {
+      "name": "generate_executive_digest",
+      "description": "Synthesize prioritized inbox summary digest."
+    },
+    {
+      "name": "run_communication_benchmark",
+      "description": "Run communication triage sentinel benchmark."
+    }
+  ]
+}
