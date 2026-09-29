@@ -44,14 +44,9 @@ class PersonalCommunicationTriageSentinel:
         subj = message_info.get("subject", "")
         
         reply = (
-            f"Hi {sender_name},
-
-"
-            f"Thanks for reaching out regarding '{subj}'. I have reviewed the details and will follow up with the requested items by this afternoon.
-
-"
-            f"Best regards,
-Alex"
+            f"Hi {sender_name},\n\n"
+            f"Thanks for reaching out regarding '{subj}'. I have reviewed the details and will follow up with the requested items by this afternoon.\n\n"
+            f"Best regards,\nAlex"
         )
         return {"draft_reply": reply, "word_count": len(reply.split()), "tone_profile": user_tone}
 
